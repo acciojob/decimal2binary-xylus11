@@ -1,6 +1,6 @@
 function decimalToBinary(num) {
   //Write you code here
-	return parseInt(num, 2);
+	 return (num >>> 0).toString(2);
   
 }
 
